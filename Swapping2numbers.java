@@ -24,19 +24,19 @@ public class Swapping2numbers {
     a=a*b;
     b=a/b;
     a=a/b;
-    System.out.println("Before swapping values are: a="+a+" b="+b);
+    System.out.println("After swapping values are: a="+a+" b="+b);
 
     System.out.println("Before swapping values are: a="+a+" b="+b);
     // Using bitwise XOR(^)
     a=a^b;
     b=a^b;
     a=a^b;
-    System.out.println("Before swapping values are: a="+a+" b="+b);
+    System.out.println("After swapping values are: a="+a+" b="+b);
 
     System.out.println("Before swapping values are: a="+a+" b="+b);
     // Using single statement
     b=a+b-(a=b);
-    System.out.println("Before swapping values are: a="+a+" b="+b);
+    System.out.println("After swapping values are: a="+a+" b="+b);
     
   }
 }
