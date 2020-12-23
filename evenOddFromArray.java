@@ -2,6 +2,7 @@ public class evenOddFromArray {
   public static void main(String[] args) {
     int a[]={1,2,3,4,5,6};
 
+    //using for loop
     System.out.println("Even numbers in array.......");
     for(int i=0;i<a.length;i++)
     {
@@ -16,6 +17,7 @@ public class evenOddFromArray {
        System.out.println(a[i]+" ");
     }
 
+    //using enhanced for loop
     System.out.println("Even numbers in array.......");
     for(int value:a)
     {
